@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vap appVersionTag="v2010a_3" domVersion="1.03">
+    <Application id="app_0">
+        <property class="BindingModel" length="7" name="bindings">
+            <property default="null" type="propertyBinding" value="app_0.timeRange to xaxis_0.range  (app_0)"/>
+            <property default="null" type="propertyBinding" value="app_0.timeRange to xaxis_1.range  (app_0)"/>
+            <property default="null" type="propertyBinding" value="app_0.timeRange to xaxis_2.range  (app_0)"/>
+            <property default="null" type="propertyBinding" value="xaxis_0.log to xaxis_1.log  (xaxis_0)"/>
+            <property default="null" type="propertyBinding" value="xaxis_0.range to xaxis_1.range  (xaxis_0)"/>
+            <property default="null" type="propertyBinding" value="xaxis_1.log to xaxis_2.log  (xaxis_1)"/>
+            <property default="null" type="propertyBinding" value="xaxis_1.range to xaxis_2.range  (xaxis_1)"/>
+        </property>
+        <property class="Canvas" length="1" name="canvases">
+            <Canvas id="canvas_0">
+                <property class="Column" length="0" name="columns"/>
+                <property name="fitted" type="Boolean" value="true"/>
+                <property default="sans-10" name="font" type="String" value="Dialog-12"/>
+                <property default="480" name="height" type="Integer" value="836"/>
+                <property name="marginColumn" type="DomNode">
+                    <Column id="marginColumn_0">
+                        <property default="2em" name="left"
+                            type="String" value="+7.0em"/>
+                        <property default="100%-3em" name="right"
+                            type="String" value="100.00%-9.0em"/>
+                    </Column>
+                </property>
+                <property name="marginRow" type="DomNode">
+                    <Row id="marginRow_0">
+                        <property default="+100%-2em" name="bottom"
+                            type="String" value="100%-3em"/>
+                        <property default="+2em" name="top"
+                            type="String" value="2em"/>
+                    </Row>
+                </property>
+                <property class="Row" length="3" name="rows">
+                    <Row id="row_0">
+                        <property default="+100%-2em" name="bottom"
+                            type="String" value="33.30%-2.0em"/>
+                        <property default="null" name="parent"
+                            type="String" value="marginRow_0"/>
+                        <property name="top" type="String" value="+2em"/>
+                    </Row>
+                    <Row id="row_1">
+                        <property default="+100%-2em" name="bottom"
+                            type="String" value="66.60%-2.0em"/>
+                        <property default="null" name="parent"
+                            type="String" value="marginRow_0"/>
+                        <property default="+2em" name="top"
+                            type="String" value="33.30%+2.0em"/>
+                    </Row>
+                    <Row id="row_2">
+                        <property default="+100%-2em" name="bottom"
+                            type="String" value="99.90%-2.0em"/>
+                        <property default="null" name="parent"
+                            type="String" value="marginRow_0"/>
+                        <property default="+2em" name="top"
+                            type="String" value="66.60%+2.0em"/>
+                    </Row>
+                </property>
+                <property default="640" name="width" type="Integer" value="1236"/>
+            </Canvas>
+        </property>
+        <property class="Connector" length="0" name="connectors"/>
+        <property class="DataSourceFilter" length="3" name="dataSourceFilters">
+            <DataSourceFilter id="data_0">
+                <property name="fill" type="String" value=""/>
+                <property name="sliceDimension" type="Integer" value="0"/>
+                <property name="sliceIndex" type="Integer" value="-1"/>
+                <property name="transpose" type="Boolean" value="false"/>
+                <property default="null" name="uri" type="String" value="vap:http://spacedata.bu.edu/data/polar/cammice/k1/$Y/po_k1_cam_$Y$m$d_v...cdf?HTotalOmni&amp;timerange=19990524"/>
+                <property name="validRange" type="String" value=""/>
+            </DataSourceFilter>
+            <DataSourceFilter id="data_1">
+                <property name="fill" type="String" value=""/>
+                <property name="sliceDimension" type="Integer" value="0"/>
+                <property name="sliceIndex" type="Integer" value="-1"/>
+                <property name="transpose" type="Boolean" value="false"/>
+                <property default="null" name="uri" type="String" value="vap:http://spacedata.bu.edu/data/polar/cammice/k1/$Y/po_k1_cam_$Y$m$d_v...cdf?HFluxSpin&amp;timerange=19990524"/>
+                <property name="validRange" type="String" value=""/>
+            </DataSourceFilter>
+            <DataSourceFilter id="data_2">
+                <property name="fill" type="String" value=""/>
+                <property name="sliceDimension" type="Integer" value="0"/>
+                <property name="sliceIndex" type="Integer" value="-1"/>
+                <property name="transpose" type="Boolean" value="false"/>
+                <property default="null" name="uri" type="String" value="vap:http://spacedata.bu.edu/data/polar/cammice/k1/$Y/po_k1_cam_$Y$m$d_v...cdf?H0FluxSpin&amp;timerange=19990524"/>
+                <property name="validRange" type="String" value=""/>
+            </DataSourceFilter>
+        </property>
+        <property name="options" type="DomNode">
+            <Options>
+                <property name="autolabelling" type="Boolean" value="true"/>
+                <property name="autolayout" type="Boolean" value="true"/>
+                <property name="autoranging" type="Boolean" value="true"/>
+                <property name="background" type="color" value="#ffffff"/>
+                <property name="canvasFont" type="String" value="sans-12"/>
+                <property name="color" type="color" value="#0"/>
+                <property name="dataVisible" type="Boolean" value="false"/>
+                <property name="drawAntiAlias" type="Boolean" value="true"/>
+                <property name="drawGrid" type="Boolean" value="false"/>
+                <property name="drawMinorGrid" type="Boolean" value="false"/>
+                <property name="fillColor" type="color" value="#404040"/>
+                <property name="foreground" type="color" value="#0"/>
+                <property name="id" type="String" value=""/>
+                <property name="layoutVisible" type="Boolean" value="false"/>
+                <property name="logConsoleVisible" type="Boolean" value="false"/>
+                <property name="overRendering" type="Boolean" value="false"/>
+                <property name="scriptVisible" type="Boolean" value="false"/>
+                <property name="serverEnabled" type="Boolean" value="false"/>
+                <property name="specialEffects" type="Boolean" value="false"/>
+                <property name="textAntiAlias" type="Boolean" value="true"/>
+            </Options>
+        </property>
+        <property class="PlotElement" length="3" name="plotElements">
+            <PlotElement id="plotElement_0">
+                <property name="active" type="Boolean" value="true"/>
+                <property default="false" name="autoComponent"
+                    type="Boolean" value="true"/>
+                <property default="false" name="autoLabel"
+                    type="Boolean" value="true"/>
+                <property name="autoRenderType" type="Boolean" value="false"/>
+                <property name="component" type="String" value=""/>
+                <property default="null" name="dataSourceFilterId"
+                    type="String" value="data_0"/>
+                <property name="displayLegend" type="Boolean" value="false"/>
+                <property default="" name="legendLabel" type="String" value="flux (cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N)"/>
+                <property name="parent" type="String" value=""/>
+                <property name="plotDefaults" type="DomNode">
+                    <Plot id="plot_defaults_0">
+                        <property name="autoBinding" type="Boolean" value="false"/>
+                        <property default="false" name="autoLabel"
+                            type="Boolean" value="true"/>
+                        <property name="columnId" type="String" value=""/>
+                        <property name="isotropic" type="Boolean" value="false"/>
+                        <property name="rowId" type="String" value=""/>
+                        <property default="" name="title" type="String" value="Omnidirectional H+ combined flux"/>
+                        <property name="xaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property name="label" type="String" value=""/>
+                                <property name="log" type="Boolean" value="false"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="us2000" value="1999-05-23 23:00 to 1999-05-25 01:00"/>
+                                </property>
+                            </Axis>
+                        </property>
+                        <property name="yaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property default="" name="label"
+                                    type="String" value="Energy (keV/e)"/>
+                                <property default="false" name="log"
+                                    type="Boolean" value="true"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="keV/e" value="1.0 to 430.0 keV/e"/>
+                                </property>
+                            </Axis>
+                        </property>
+                        <property name="zaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property default="" name="label"
+                                    type="String" value="flux (cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N)"/>
+                                <property default="false" name="log"
+                                    type="Boolean" value="true"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange
+                                    units="cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N" value="10000.0 to 2.0E7 cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N"/>
+                                </property>
+                            </Axis>
+                        </property>
+                    </Plot>
+                </property>
+                <property default="null" name="plotId" type="String" value="plot_0"/>
+                <property default="series" name="renderType"
+                    type="enum:org.virbo.autoplot.RenderType" value="nnSpectrogram"/>
+                <property name="style" type="DomNode">
+                    <PlotElementStyle id="style_0">
+                        <property name="antiAliased" type="Boolean" value="true"/>
+                        <property name="color" type="color" value="#0"/>
+                        <property name="colortable"
+                            type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
+                        <property default="#808080" name="fillColor"
+                            type="color" value="#404040"/>
+                        <property name="fillToReference" type="Boolean" value="false"/>
+                        <property name="lineWidth" type="Double" value="1.0"/>
+                        <property name="plotSymbol"
+                            type="enum:org.das2.graph.DefaultPlotSymbol" value="circles"/>
+                        <property default="binAverage"
+                            name="rebinMethod"
+                            type="enum:org.das2.graph.SpectrogramRenderer$RebinnerEnum" value="nearestNeighbor"/>
+                        <property name="reference" type="datum" value="0.0 (dimensionless)"/>
+                        <property name="symbolConnector"
+                            type="enum:org.das2.graph.PsymConnector" value="None"/>
+                        <property name="symbolSize" type="Double" value="1.0"/>
+                    </PlotElementStyle>
+                </property>
+            </PlotElement>
+            <PlotElement id="plotElement_1">
+                <property name="active" type="Boolean" value="true"/>
+                <property default="false" name="autoComponent"
+                    type="Boolean" value="true"/>
+                <property default="false" name="autoLabel"
+                    type="Boolean" value="true"/>
+                <property name="autoRenderType" type="Boolean" value="false"/>
+                <property name="component" type="String" value=""/>
+                <property default="null" name="dataSourceFilterId"
+                    type="String" value="data_1"/>
+                <property name="displayLegend" type="Boolean" value="false"/>
+                <property default="" name="legendLabel" type="String" value="flux (cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N)"/>
+                <property name="parent" type="String" value=""/>
+                <property name="plotDefaults" type="DomNode">
+                    <Plot id="plot_defaults_1">
+                        <property name="autoBinding" type="Boolean" value="false"/>
+                        <property default="false" name="autoLabel"
+                            type="Boolean" value="true"/>
+                        <property name="columnId" type="String" value=""/>
+                        <property name="isotropic" type="Boolean" value="false"/>
+                        <property name="rowId" type="String" value=""/>
+                        <property default="" name="title" type="String" value="Spin-averaged H+ flux"/>
+                        <property name="xaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property name="label" type="String" value=""/>
+                                <property name="log" type="Boolean" value="false"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="us2000" value="1999-05-23 23:00 to 1999-05-25 01:00"/>
+                                </property>
+                            </Axis>
+                        </property>
+                        <property name="yaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property default="" name="label"
+                                    type="String" value="Energy (keV/e)"/>
+                                <property default="false" name="log"
+                                    type="Boolean" value="true"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="keV/e" value="1.0 to 430.0 keV/e"/>
+                                </property>
+                            </Axis>
+                        </property>
+                        <property name="zaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property default="" name="label"
+                                    type="String" value="flux (cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N)"/>
+                                <property default="false" name="log"
+                                    type="Boolean" value="true"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange
+                                    units="cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N" value="1000.0 to 2.00000E6 cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N"/>
+                                </property>
+                            </Axis>
+                        </property>
+                    </Plot>
+                </property>
+                <property default="null" name="plotId" type="String" value="plot_1"/>
+                <property default="series" name="renderType"
+                    type="enum:org.virbo.autoplot.RenderType" value="nnSpectrogram"/>
+                <property name="style" type="DomNode">
+                    <PlotElementStyle id="style_1">
+                        <property name="antiAliased" type="Boolean" value="true"/>
+                        <property name="color" type="color" value="#0"/>
+                        <property name="colortable"
+                            type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
+                        <property default="#808080" name="fillColor"
+                            type="color" value="#404040"/>
+                        <property name="fillToReference" type="Boolean" value="false"/>
+                        <property name="lineWidth" type="Double" value="1.0"/>
+                        <property name="plotSymbol"
+                            type="enum:org.das2.graph.DefaultPlotSymbol" value="circles"/>
+                        <property default="binAverage"
+                            name="rebinMethod"
+                            type="enum:org.das2.graph.SpectrogramRenderer$RebinnerEnum" value="nearestNeighbor"/>
+                        <property name="reference" type="datum" value="0.0 (dimensionless)"/>
+                        <property name="symbolConnector"
+                            type="enum:org.das2.graph.PsymConnector" value="None"/>
+                        <property name="symbolSize" type="Double" value="1.0"/>
+                    </PlotElementStyle>
+                </property>
+            </PlotElement>
+            <PlotElement id="plotElement_2">
+                <property name="active" type="Boolean" value="true"/>
+                <property default="false" name="autoComponent"
+                    type="Boolean" value="true"/>
+                <property default="false" name="autoLabel"
+                    type="Boolean" value="true"/>
+                <property name="autoRenderType" type="Boolean" value="false"/>
+                <property name="component" type="String" value=""/>
+                <property default="null" name="dataSourceFilterId"
+                    type="String" value="data_2"/>
+                <property name="displayLegend" type="Boolean" value="false"/>
+                <property default="" name="legendLabel" type="String" value="flux (cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N)"/>
+                <property name="parent" type="String" value=""/>
+                <property name="plotDefaults" type="DomNode">
+                    <Plot id="plot_defaults_2">
+                        <property name="autoBinding" type="Boolean" value="false"/>
+                        <property default="false" name="autoLabel"
+                            type="Boolean" value="true"/>
+                        <property name="columnId" type="String" value=""/>
+                        <property name="isotropic" type="Boolean" value="false"/>
+                        <property name="rowId" type="String" value=""/>
+                        <property default="" name="title" type="String" value="Spin-averaged H+ flux with no energy signal"/>
+                        <property name="xaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property name="label" type="String" value=""/>
+                                <property name="log" type="Boolean" value="false"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="us2000" value="1999-05-23 23:00 to 1999-05-25 01:00"/>
+                                </property>
+                            </Axis>
+                        </property>
+                        <property name="yaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property default="" name="label"
+                                    type="String" value="Energy (keV/e)"/>
+                                <property default="false" name="log"
+                                    type="Boolean" value="true"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="keV/e" value="1.0 to 430.0 keV/e"/>
+                                </property>
+                            </Axis>
+                        </property>
+                        <property name="zaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property default="" name="label"
+                                    type="String" value="flux (cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N)"/>
+                                <property default="false" name="log"
+                                    type="Boolean" value="true"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange
+                                    units="cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N" value="10000.0 to 2.0E7 cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N"/>
+                                </property>
+                            </Axis>
+                        </property>
+                    </Plot>
+                </property>
+                <property default="null" name="plotId" type="String" value="plot_2"/>
+                <property default="series" name="renderType"
+                    type="enum:org.virbo.autoplot.RenderType" value="nnSpectrogram"/>
+                <property name="style" type="DomNode">
+                    <PlotElementStyle id="style_2">
+                        <property name="antiAliased" type="Boolean" value="true"/>
+                        <property name="color" type="color" value="#0"/>
+                        <property name="colortable"
+                            type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
+                        <property default="#808080" name="fillColor"
+                            type="color" value="#404040"/>
+                        <property name="fillToReference" type="Boolean" value="false"/>
+                        <property name="lineWidth" type="Double" value="1.0"/>
+                        <property name="plotSymbol"
+                            type="enum:org.das2.graph.DefaultPlotSymbol" value="circles"/>
+                        <property default="binAverage"
+                            name="rebinMethod"
+                            type="enum:org.das2.graph.SpectrogramRenderer$RebinnerEnum" value="nearestNeighbor"/>
+                        <property name="reference" type="datum" value="0.0 (dimensionless)"/>
+                        <property name="symbolConnector"
+                            type="enum:org.das2.graph.PsymConnector" value="None"/>
+                        <property name="symbolSize" type="Double" value="1.0"/>
+                    </PlotElementStyle>
+                </property>
+            </PlotElement>
+        </property>
+        <property class="Plot" length="3" name="plots">
+            <Plot id="plot_0">
+                <property name="autoBinding" type="Boolean" value="false"/>
+                <property name="autoLabel" type="Boolean" value="false"/>
+                <property default="" name="columnId" type="String" value="marginColumn_0"/>
+                <property name="isotropic" type="Boolean" value="false"/>
+                <property default="" name="rowId" type="String" value="row_0"/>
+                <property default="" name="title" type="String" value="Omnidirectional H+ combined flux"/>
+                <property name="xaxis" type="DomNode">
+                    <Axis id="xaxis_0">
+                        <property default="false" name="autoLabel"
+                            type="Boolean" value="true"/>
+                        <property name="autoRange" type="Boolean" value="false"/>
+                        <property name="drawTickLabels" type="Boolean" value="true"/>
+                        <property name="label" type="String" value=""/>
+                        <property name="log" type="Boolean" value="false"/>
+                        <property name="range" type="datumRange">
+                            <datumRange units="us2000" value="1999-05-24"/>
+                        </property>
+                    </Axis>
+                </property>
+                <property name="yaxis" type="DomNode">
+                    <Axis id="yaxis_0">
+                        <property default="false" name="autoLabel"
+                            type="Boolean" value="true"/>
+                        <property default="false" name="autoRange"
+                            type="Boolean" value="true"/>
+                        <property name="drawTickLabels" type="Boolean" value="true"/>
+                        <property default="" name="label" type="String" value="Energy (keV/e)"/>
+                        <property default="false" name="log"
+                            type="Boolean" value="true"/>
+                        <property name="range" type="datumRange">
+                            <datumRange units="keV/e" value="1.0 to 430.0 keV/e"/>
+                        </property>
+                    </Axis>
+                </property>
+                <property name="zaxis" type="DomNode">
+                    <Axis id="zaxis_0">
+                        <property default="false" name="autoLabel"
+                            type="Boolean" value="true"/>
+                        <property default="false" name="autoRange"
+                            type="Boolean" value="true"/>
+                        <property name="drawTickLabels" type="Boolean" value="true"/>
+                        <property default="" name="label" type="String" value="flux (cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N)"/>
+                        <property default="false" name="log"
+                            type="Boolean" value="true"/>
+                        <property name="range" type="datumRange">
+                            <datumRange
+                                units="cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N" value="10000.0 to 2.0E7 cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N"/>
+                        </property>
+                    </Axis>
+                </property>
+            </Plot>
+            <Plot id="plot_1">
+                <property name="autoBinding" type="Boolean" value="false"/>
+                <property name="autoLabel" type="Boolean" value="false"/>
+                <property default="" name="columnId" type="String" value="marginColumn_0"/>
+                <property name="isotropic" type="Boolean" value="false"/>
+                <property default="" name="rowId" type="String" value="row_1"/>
+                <property default="" name="title" type="String" value="Spin-averaged H+ flux"/>
+                <property name="xaxis" type="DomNode">
+                    <Axis id="xaxis_1">
+                        <property default="false" name="autoLabel"
+                            type="Boolean" value="true"/>
+                        <property name="autoRange" type="Boolean" value="false"/>
+                        <property name="drawTickLabels" type="Boolean" value="true"/>
+                        <property name="label" type="String" value=""/>
+                        <property name="log" type="Boolean" value="false"/>
+                        <property name="range" type="datumRange">
+                            <datumRange units="us2000" value="1999-05-24"/>
+                        </property>
+                    </Axis>
+                </property>
+                <property name="yaxis" type="DomNode">
+                    <Axis id="yaxis_1">
+                        <property default="false" name="autoLabel"
+                            type="Boolean" value="true"/>
+                        <property default="false" name="autoRange"
+                            type="Boolean" value="true"/>
+                        <property name="drawTickLabels" type="Boolean" value="true"/>
+                        <property default="" name="label" type="String" value="Energy (keV/e)"/>
+                        <property default="false" name="log"
+                            type="Boolean" value="true"/>
+                        <property name="range" type="datumRange">
+                            <datumRange units="keV/e" value="1.0 to 430.0 keV/e"/>
+                        </property>
+                    </Axis>
+                </property>
+                <property name="zaxis" type="DomNode">
+                    <Axis id="zaxis_1">
+                        <property default="false" name="autoLabel"
+                            type="Boolean" value="true"/>
+                        <property default="false" name="autoRange"
+                            type="Boolean" value="true"/>
+                        <property name="drawTickLabels" type="Boolean" value="true"/>
+                        <property default="" name="label" type="String" value="flux (cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N)"/>
+                        <property default="false" name="log"
+                            type="Boolean" value="true"/>
+                        <property name="range" type="datumRange">
+                            <datumRange
+                                units="cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N" value="1000.0 to 2.00000E6 cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N"/>
+                        </property>
+                    </Axis>
+                </property>
+            </Plot>
+            <Plot id="plot_2">
+                <property name="autoBinding" type="Boolean" value="false"/>
+                <property name="autoLabel" type="Boolean" value="false"/>
+                <property default="" name="columnId" type="String" value="marginColumn_0"/>
+                <property name="isotropic" type="Boolean" value="false"/>
+                <property default="" name="rowId" type="String" value="row_2"/>
+                <property default="" name="title" type="String" value="Spin-averaged H+ flux with no energy signal"/>
+                <property name="xaxis" type="DomNode">
+                    <Axis id="xaxis_2">
+                        <property default="false" name="autoLabel"
+                            type="Boolean" value="true"/>
+                        <property name="autoRange" type="Boolean" value="false"/>
+                        <property name="drawTickLabels" type="Boolean" value="true"/>
+                        <property name="label" type="String" value=""/>
+                        <property name="log" type="Boolean" value="false"/>
+                        <property name="range" type="datumRange">
+                            <datumRange units="us2000" value="1999-05-24"/>
+                        </property>
+                    </Axis>
+                </property>
+                <property name="yaxis" type="DomNode">
+                    <Axis id="yaxis_2">
+                        <property default="false" name="autoLabel"
+                            type="Boolean" value="true"/>
+                        <property default="false" name="autoRange"
+                            type="Boolean" value="true"/>
+                        <property name="drawTickLabels" type="Boolean" value="true"/>
+                        <property default="" name="label" type="String" value="Energy (keV/e)"/>
+                        <property default="false" name="log"
+                            type="Boolean" value="true"/>
+                        <property name="range" type="datumRange">
+                            <datumRange units="keV/e" value="1.0 to 430.0 keV/e"/>
+                        </property>
+                    </Axis>
+                </property>
+                <property name="zaxis" type="DomNode">
+                    <Axis id="zaxis_2">
+                        <property default="false" name="autoLabel"
+                            type="Boolean" value="true"/>
+                        <property default="false" name="autoRange"
+                            type="Boolean" value="true"/>
+                        <property name="drawTickLabels" type="Boolean" value="true"/>
+                        <property default="" name="label" type="String" value="flux (cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N)"/>
+                        <property default="false" name="log"
+                            type="Boolean" value="true"/>
+                        <property name="range" type="datumRange">
+                            <datumRange
+                                units="cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N" value="10000.0 to 2.0E7 cm!E-2!Nsr!E-1!Nsec!E-1!NkeV/e!E-1!N"/>
+                        </property>
+                    </Axis>
+                </property>
+            </Plot>
+        </property>
+        <property name="timeRange" type="datumRange">
+            <datumRange units="us2000" value="1999-05-24"/>
+        </property>
+    </Application>
+</vap>

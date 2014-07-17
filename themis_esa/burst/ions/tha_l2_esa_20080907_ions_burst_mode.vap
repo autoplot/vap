@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vap appVersionTag="v2010b_15" domVersion="1.06">
+    <Application id="app_16">
+        <property class="BindingModel" length="4" name="bindings">
+            <property default="null" type="propertyBinding" value="app_16.timeRange to xaxis_40.range  (app_16)"/>
+            <property default="null" type="propertyBinding" value="app_16.timeRange to xaxis_41.range  (app_16)"/>
+            <property default="null" type="propertyBinding" value="app_16.timeRange to xaxis_42.range  (app_16)"/>
+            <property default="null" type="propertyBinding" value="app_16.timeRange to xaxis_43.range  (app_16)"/>
+        </property>
+        <property class="Canvas" length="1" name="canvases">
+            <Canvas id="canvas_10">
+                <property class="Column" length="0" name="columns"/>
+                <property name="fitted" type="Boolean" value="true"/>
+                <property default="sans-10" name="font" type="String" value="Dialog-12"/>
+                <property default="480" name="height" type="Integer" value="723"/>
+                <property name="marginColumn" type="DomNode">
+                    <Column id="marginColumn_10">
+                        <property default="2em" name="left"
+                            type="String" value="+8.0em"/>
+                        <property default="100%-3em" name="right"
+                            type="String" value="100.00%-9.0em"/>
+                    </Column>
+                </property>
+                <property name="marginRow" type="DomNode">
+                    <Row id="marginRow_10">
+                        <property default="+100%-2em" name="bottom"
+                            type="String" value="100%-3em"/>
+                        <property default="+2em" name="top"
+                            type="String" value="2em"/>
+                    </Row>
+                </property>
+                <property class="Row" length="4" name="rows">
+                    <Row id="row_81">
+                        <property default="+100%-2em" name="bottom"
+                            type="String" value="25.00%-2.0em"/>
+                        <property default="null" name="parent"
+                            type="String" value="marginRow_10"/>
+                        <property name="top" type="String" value="+2em"/>
+                    </Row>
+                    <Row id="row_83">
+                        <property default="+100%-2em" name="bottom"
+                            type="String" value="50.00%-2.0em"/>
+                        <property default="null" name="parent"
+                            type="String" value="marginRow_10"/>
+                        <property default="+2em" name="top"
+                            type="String" value="25.00%+2.0em"/>
+                    </Row>
+                    <Row id="row_85">
+                        <property default="+100%-2em" name="bottom"
+                            type="String" value="75.00%-2.0em"/>
+                        <property default="null" name="parent"
+                            type="String" value="marginRow_10"/>
+                        <property default="+2em" name="top"
+                            type="String" value="50.00%+2.0em"/>
+                    </Row>
+                    <Row id="row_87">
+                        <property default="+100%-2em" name="bottom"
+                            type="String" value="100.00%-2.0em"/>
+                        <property default="null" name="parent"
+                            type="String" value="marginRow_10"/>
+                        <property default="+2em" name="top"
+                            type="String" value="75.00%+2.0em"/>
+                    </Row>
+                </property>
+                <property default="640" name="width" type="Integer" value="941"/>
+            </Canvas>
+        </property>
+        <property class="Connector" length="0" name="connectors"/>
+        <property class="DataSourceFilter" length="4" name="dataSourceFilters">
+            <DataSourceFilter id="data_40">
+                <property name="fill" type="String" value=""/>
+                <property name="sliceDimension" type="Integer" value="0"/>
+                <property name="sliceIndex" type="Integer" value="-1"/>
+                <property name="transpose" type="Boolean" value="false"/>
+                <property default="null" name="uri" type="String" value="ftp://laspftp.colorado.edu/pub/riesberl/MMS/data/burst-mode/tha_l2s_esa_20080907130050_20080907135026.cdf?tha_peib_density"/>
+                <property name="validRange" type="String" value=""/>
+            </DataSourceFilter>
+            <DataSourceFilter id="data_41">
+                <property name="fill" type="String" value=""/>
+                <property name="sliceDimension" type="Integer" value="0"/>
+                <property name="sliceIndex" type="Integer" value="-1"/>
+                <property name="transpose" type="Boolean" value="false"/>
+                <property default="null" name="uri" type="String" value="ftp://laspftp.colorado.edu/pub/riesberl/MMS/data/burst-mode/tha_l2s_esa_20080907130050_20080907135026.cdf?tha_peib_avgtemp"/>
+                <property name="validRange" type="String" value=""/>
+            </DataSourceFilter>
+            <DataSourceFilter id="data_42">
+                <property name="fill" type="String" value=""/>
+                <property name="sliceDimension" type="Integer" value="0"/>
+                <property name="sliceIndex" type="Integer" value="-1"/>
+                <property name="transpose" type="Boolean" value="false"/>
+                <property default="null" name="uri" type="String" value="ftp://laspftp.colorado.edu/pub/riesberl/MMS/data/burst-mode/tha_l2s_esa_20080907130050_20080907135026.cdf?tha_peib_en_eflux"/>
+                <property name="validRange" type="String" value=""/>
+            </DataSourceFilter>
+            <DataSourceFilter id="data_43">
+                <property name="fill" type="String" value=""/>
+                <property name="sliceDimension" type="Integer" value="0"/>
+                <property name="sliceIndex" type="Integer" value="-1"/>
+                <property name="transpose" type="Boolean" value="false"/>
+                <property default="null" name="uri" type="String" value="ftp://laspftp.colorado.edu/pub/riesberl/MMS/data/burst-mode/tha_l2s_esa_20080907130050_20080907135026.cdf?tha_peeb_velocity_dsl"/>
+                <property name="validRange" type="String" value=""/>
+            </DataSourceFilter>
+        </property>
+        <property name="options" type="DomNode">
+            <Options>
+                <property name="autolabelling" type="Boolean" value="true"/>
+                <property name="autolayout" type="Boolean" value="true"/>
+                <property name="autoranging" type="Boolean" value="true"/>
+                <property name="background" type="color" value="#ffffff"/>
+                <property name="canvasFont" type="String" value="sans-12"/>
+                <property name="color" type="color" value="#0"/>
+                <property name="dataVisible" type="Boolean" value="false"/>
+                <property name="drawAntiAlias" type="Boolean" value="true"/>
+                <property name="drawGrid" type="Boolean" value="false"/>
+                <property name="drawMinorGrid" type="Boolean" value="false"/>
+                <property name="fillColor" type="color" value="#404040"/>
+                <property name="foreground" type="color" value="#0"/>
+                <property name="id" type="String" value=""/>
+                <property name="layoutVisible" type="Boolean" value="false"/>
+                <property name="logConsoleVisible" type="Boolean" value="false"/>
+                <property name="overRendering" type="Boolean" value="false"/>
+                <property name="scriptVisible" type="Boolean" value="false"/>
+                <property name="serverEnabled" type="Boolean" value="false"/>
+                <property name="specialEffects" type="Boolean" value="false"/>
+                <property name="textAntiAlias" type="Boolean" value="true"/>
+            </Options>
+        </property>
+        <property class="PlotElement" length="7" name="plotElements">
+            <PlotElement id="plotElement_70">
+                <property name="active" type="Boolean" value="true"/>
+                <property default="false" name="autoComponent"
+                    type="Boolean" value="true"/>
+                <property default="false" name="autoLabel"
+                    type="Boolean" value="true"/>
+                <property default="false" name="autoRenderType"
+                    type="Boolean" value="true"/>
+                <property name="component" type="String" value=""/>
+                <property default="null" name="dataSourceFilterId"
+                    type="String" value="data_40"/>
+                <property name="displayLegend" type="Boolean" value="false"/>
+                <property default="" name="legendLabel" type="String" value="N_ion Brst ESA-A (cm^-3 (All Qs))"/>
+                <property name="parent" type="String" value=""/>
+                <property name="plotDefaults" type="DomNode">
+                    <Plot id="plot_defaults_70">
+                        <property name="autoBinding" type="Boolean" value="false"/>
+                        <property default="false" name="autoLabel"
+                            type="Boolean" value="true"/>
+                        <property name="colortable"
+                            type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
+                        <property name="columnId" type="String" value=""/>
+                        <property name="isotropic" type="Boolean" value="false"/>
+                        <property name="rowId" type="String" value=""/>
+                        <property default="" name="title" type="String" value="(All qualities data) ESA Burst (High Time and Angular Resolution) Mode, Ion Density"/>
+                        <property name="visible" type="Boolean" value="true"/>
+                        <property name="xaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property default="" name="label"
+                                    type="String" value="UT"/>
+                                <property name="log" type="Boolean" value="false"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="us2000" value="2008-09-07 13:00 to 13:51"/>
+                                </property>
+                                <property name="visible" type="Boolean" value="true"/>
+                            </Axis>
+                        </property>
+                        <property name="yaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property default="" name="label"
+                                    type="String" value="N_ion Brst ESA-A (cm^-3 (All Qs))"/>
+                                <property default="false" name="log"
+                                    type="Boolean" value="true"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="cm^-3 (All Qs)" value="0.1 to 20.0 cm^-3 (All Qs)"/>
+                                </property>
+                                <property name="visible" type="Boolean" value="true"/>
+                            </Axis>
+                        </property>
+                        <property name="zaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property name="label" type="String" value=""/>
+                                <property name="log" type="Boolean" value="false"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="" value="0.0 to 100.0 "/>
+                                </property>
+                                <property default="true" name="visible"
+                                    type="Boolean" value="false"/>
+                            </Axis>
+                        </property>
+                    </Plot>
+                </property>
+                <property default="null" name="plotId" type="String" value="plot_40"/>
+                <property name="renderType"
+                    type="enum:org.virbo.autoplot.RenderType" value="series"/>
+                <property name="style" type="DomNode">
+                    <PlotElementStyle id="style_70">
+                        <property name="antiAliased" type="Boolean" value="true"/>
+                        <property name="color" type="color" value="#0"/>
+                        <property name="colortable"
+                            type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
+                        <property default="#808080" name="fillColor"
+                            type="color" value="#404040"/>
+                        <property name="fillToReference" type="Boolean" value="false"/>
+                        <property name="lineWidth" type="Double" value="1.0"/>
+                        <property name="plotSymbol"
+                            type="enum:org.das2.graph.DefaultPlotSymbol" value="circles"/>
+                        <property name="rebinMethod"
+                            type="enum:org.das2.graph.SpectrogramRenderer$RebinnerEnum" value="binAverage"/>
+                        <property name="reference" type="datum" value="0.0 (dimensionless)"/>
+                        <property default="None" name="symbolConnector"
+                            type="enum:org.das2.graph.PsymConnector" value="Solid"/>
+                        <property name="symbolSize" type="Double" value="1.0"/>
+                    </PlotElementStyle>
+                </property>
+            </PlotElement>
+            <PlotElement id="plotElement_71">
+                <property name="active" type="Boolean" value="true"/>
+                <property default="false" name="autoComponent"
+                    type="Boolean" value="true"/>
+                <property default="false" name="autoLabel"
+                    type="Boolean" value="true"/>
+                <property default="false" name="autoRenderType"
+                    type="Boolean" value="true"/>
+                <property name="component" type="String" value=""/>
+                <property default="null" name="dataSourceFilterId"
+                    type="String" value="data_41"/>
+                <property name="displayLegend" type="Boolean" value="false"/>
+                <property default="" name="legendLabel" type="String" value="T_ion Brst ESA-A (eV (All Qs))"/>
+                <property name="parent" type="String" value=""/>
+                <property name="plotDefaults" type="DomNode">
+                    <Plot id="plot_defaults_71">
+                        <property name="autoBinding" type="Boolean" value="false"/>
+                        <property default="false" name="autoLabel"
+                            type="Boolean" value="true"/>
+                        <property name="colortable"
+                            type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
+                        <property name="columnId" type="String" value=""/>
+                        <property name="isotropic" type="Boolean" value="false"/>
+                        <property name="rowId" type="String" value=""/>
+                        <property default="" name="title" type="String" value="-----Ion Average Temperature"/>
+                        <property name="visible" type="Boolean" value="true"/>
+                        <property name="xaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property default="" name="label"
+                                    type="String" value="UT"/>
+                                <property name="log" type="Boolean" value="false"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="us2000" value="2008-09-07 13:00 to 13:51"/>
+                                </property>
+                                <property name="visible" type="Boolean" value="true"/>
+                            </Axis>
+                        </property>
+                        <property name="yaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property default="" name="label"
+                                    type="String" value="T_ion Brst ESA-A (eV (All Qs))"/>
+                                <property default="false" name="log"
+                                    type="Boolean" value="true"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="eV (All Qs)" value="100.0 to 3000.0 eV (All Qs)"/>
+                                </property>
+                                <property name="visible" type="Boolean" value="true"/>
+                            </Axis>
+                        </property>
+                        <property name="zaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property name="label" type="String" value=""/>
+                                <property name="log" type="Boolean" value="false"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="" value="0.0 to 100.0 "/>
+                                </property>
+                                <property default="true" name="visible"
+                                    type="Boolean" value="false"/>
+                            </Axis>
+                        </property>
+                    </Plot>
+                </property>
+                <property default="null" name="plotId" type="String" value="plot_41"/>
+                <property name="renderType"
+                    type="enum:org.virbo.autoplot.RenderType" value="series"/>
+                <property name="style" type="DomNode">
+                    <PlotElementStyle id="style_71">
+                        <property name="antiAliased" type="Boolean" value="true"/>
+                        <property name="color" type="color" value="#0"/>
+                        <property name="colortable"
+                            type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
+                        <property default="#808080" name="fillColor"
+                            type="color" value="#404040"/>
+                        <property name="fillToReference" type="Boolean" value="false"/>
+                        <property name="lineWidth" type="Double" value="1.0"/>
+                        <property name="plotSymbol"
+                            type="enum:org.das2.graph.DefaultPlotSymbol" value="circles"/>
+                        <property name="rebinMethod"
+                            type="enum:org.das2.graph.SpectrogramRenderer$RebinnerEnum" value="binAverage"/>
+                        <property name="reference" type="datum" value="0.0 (dimensionless)"/>
+                        <property default="None" name="symbolConnector"
+                            type="enum:org.das2.graph.PsymConnector" value="Solid"/>
+                        <property name="symbolSize" type="Double" value="1.0"/>
+                    </PlotElementStyle>
+                </property>
+            </PlotElement>
+            <PlotElement id="plotElement_72">
+                <property name="active" type="Boolean" value="true"/>
+                <property default="false" name="autoComponent"
+                    type="Boolean" value="true"/>
+                <property default="false" name="autoLabel"
+                    type="Boolean" value="true"/>
+                <property default="false" name="autoRenderType"
+                    type="Boolean" value="true"/>
+                <property name="component" type="String" value=""/>
+                <property default="null" name="dataSourceFilterId"
+                    type="String" value="data_42"/>
+                <property name="displayLegend" type="Boolean" value="false"/>
+                <property default="" name="legendLabel" type="String" value="Eflux_ion Brst ESA-A (eV/(cm^2-s-sr-eV) (All Qs))"/>
+                <property name="parent" type="String" value=""/>
+                <property name="plotDefaults" type="DomNode">
+                    <Plot id="plot_defaults_72">
+                        <property name="autoBinding" type="Boolean" value="false"/>
+                        <property default="false" name="autoLabel"
+                            type="Boolean" value="true"/>
+                        <property name="colortable"
+                            type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
+                        <property name="columnId" type="String" value=""/>
+                        <property name="isotropic" type="Boolean" value="false"/>
+                        <property name="rowId" type="String" value=""/>
+                        <property default="" name="title" type="String" value="-----Ion Energy Flux spectrogram"/>
+                        <property name="visible" type="Boolean" value="true"/>
+                        <property name="xaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property default="" name="label"
+                                    type="String" value="UT"/>
+                                <property name="log" type="Boolean" value="false"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="us2000" value="2008-09-07 13:00 to 13:51"/>
+                                </property>
+                                <property name="visible" type="Boolean" value="true"/>
+                            </Axis>
+                        </property>
+                        <property name="yaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property default="" name="label"
+                                    type="String" value="Ion ESA energy (eV)"/>
+                                <property default="false" name="log"
+                                    type="Boolean" value="true"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="eV" value="5.0 to 30000.0 eV"/>
+                                </property>
+                                <property name="visible" type="Boolean" value="true"/>
+                            </Axis>
+                        </property>
+                        <property name="zaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property default="" name="label"
+                                    type="String" value="Eflux_ion Brst ESA-A (eV/(cm^2-s-sr-eV) (All Qs))"/>
+                                <property default="false" name="log"
+                                    type="Boolean" value="true"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange
+                                    units="eV/(cm^2-s-sr-eV) (All Qs)" value="1.00000E6 to 1.0E10 eV/(cm^2-s-sr-eV) (All Qs)"/>
+                                </property>
+                                <property name="visible" type="Boolean" value="true"/>
+                            </Axis>
+                        </property>
+                    </Plot>
+                </property>
+                <property default="null" name="plotId" type="String" value="plot_42"/>
+                <property default="series" name="renderType"
+                    type="enum:org.virbo.autoplot.RenderType" value="spectrogram"/>
+                <property name="style" type="DomNode">
+                    <PlotElementStyle id="style_72">
+                        <property name="antiAliased" type="Boolean" value="true"/>
+                        <property name="color" type="color" value="#0"/>
+                        <property name="colortable"
+                            type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
+                        <property default="#808080" name="fillColor"
+                            type="color" value="#404040"/>
+                        <property name="fillToReference" type="Boolean" value="false"/>
+                        <property name="lineWidth" type="Double" value="1.0"/>
+                        <property name="plotSymbol"
+                            type="enum:org.das2.graph.DefaultPlotSymbol" value="circles"/>
+                        <property name="rebinMethod"
+                            type="enum:org.das2.graph.SpectrogramRenderer$RebinnerEnum" value="binAverage"/>
+                        <property name="reference" type="datum" value="0.0 (dimensionless)"/>
+                        <property default="None" name="symbolConnector"
+                            type="enum:org.das2.graph.PsymConnector" value="Solid"/>
+                        <property name="symbolSize" type="Double" value="1.0"/>
+                    </PlotElementStyle>
+                </property>
+            </PlotElement>
+            <PlotElement id="plotElement_73">
+                <property default="true" name="active" type="Boolean" value="false"/>
+                <property default="false" name="autoComponent"
+                    type="Boolean" value="true"/>
+                <property default="false" name="autoLabel"
+                    type="Boolean" value="true"/>
+                <property default="false" name="autoRenderType"
+                    type="Boolean" value="true"/>
+                <property name="component" type="String" value=""/>
+                <property default="null" name="dataSourceFilterId"
+                    type="String" value="data_43"/>
+                <property name="displayLegend" type="Boolean" value="false"/>
+                <property default="" name="legendLabel" type="String" value="km/s (All Qs)"/>
+                <property name="parent" type="String" value=""/>
+                <property name="plotDefaults" type="DomNode">
+                    <Plot id="plot_defaults_73">
+                        <property name="autoBinding" type="Boolean" value="false"/>
+                        <property default="false" name="autoLabel"
+                            type="Boolean" value="true"/>
+                        <property name="colortable"
+                            type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
+                        <property name="columnId" type="String" value=""/>
+                        <property name="isotropic" type="Boolean" value="false"/>
+                        <property name="rowId" type="String" value=""/>
+                        <property default="" name="title" type="String" value="-----Electron Velocity Vector in DSL"/>
+                        <property name="visible" type="Boolean" value="true"/>
+                        <property name="xaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property default="" name="label"
+                                    type="String" value="UT"/>
+                                <property name="log" type="Boolean" value="false"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="us2000" value="2008-09-07 13:00 to 13:51"/>
+                                </property>
+                                <property name="visible" type="Boolean" value="true"/>
+                            </Axis>
+                        </property>
+                        <property name="yaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property default="" name="label"
+                                    type="String" value="km/s (All Qs)"/>
+                                <property name="log" type="Boolean" value="false"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="km/s (All Qs)" value="-10000.0 to 10000.0 km/s (All Qs)"/>
+                                </property>
+                                <property name="visible" type="Boolean" value="true"/>
+                            </Axis>
+                        </property>
+                        <property name="zaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property name="label" type="String" value=""/>
+                                <property name="log" type="Boolean" value="false"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="" value="0.0 to 100.0 "/>
+                                </property>
+                                <property default="true" name="visible"
+                                    type="Boolean" value="false"/>
+                            </Axis>
+                        </property>
+                    </Plot>
+                </property>
+                <property default="null" name="plotId" type="String" value="plot_43"/>
+                <property name="renderType"
+                    type="enum:org.virbo.autoplot.RenderType" value="series"/>
+                <property name="style" type="DomNode">
+                    <PlotElementStyle id="style_73">
+                        <property name="antiAliased" type="Boolean" value="true"/>
+                        <property name="color" type="color" value="#0"/>
+                        <property name="colortable"
+                            type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
+                        <property default="#808080" name="fillColor"
+                            type="color" value="#404040"/>
+                        <property name="fillToReference" type="Boolean" value="false"/>
+                        <property name="lineWidth" type="Double" value="1.0"/>
+                        <property name="plotSymbol"
+                            type="enum:org.das2.graph.DefaultPlotSymbol" value="circles"/>
+                        <property name="rebinMethod"
+                            type="enum:org.das2.graph.SpectrogramRenderer$RebinnerEnum" value="binAverage"/>
+                        <property name="reference" type="datum" value="0.0 (dimensionless)"/>
+                        <property default="None" name="symbolConnector"
+                            type="enum:org.das2.graph.PsymConnector" value="Solid"/>
+                        <property name="symbolSize" type="Double" value="1.0"/>
+                    </PlotElementStyle>
+                </property>
+            </PlotElement>
+            <PlotElement id="plotElement_74">
+                <property name="active" type="Boolean" value="true"/>
+                <property default="false" name="autoComponent"
+                    type="Boolean" value="true"/>
+                <property default="false" name="autoLabel"
+                    type="Boolean" value="true"/>
+                <property default="false" name="autoRenderType"
+                    type="Boolean" value="true"/>
+                <property default="" name="component" type="String" value="Vx_elec DSL Brst ESA-A"/>
+                <property default="null" name="dataSourceFilterId"
+                    type="String" value="data_43"/>
+                <property default="false" name="displayLegend"
+                    type="Boolean" value="true"/>
+                <property default="" name="legendLabel" type="String" value="Vx_elec DSL Brst ESA-A"/>
+                <property default="" name="parent" type="String" value="plotElement_73"/>
+                <property name="plotDefaults" type="DomNode">
+                    <Plot id="plot_defaults_74">
+                        <property name="autoBinding" type="Boolean" value="false"/>
+                        <property name="autoLabel" type="Boolean" value="false"/>
+                        <property name="colortable"
+                            type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
+                        <property name="columnId" type="String" value=""/>
+                        <property name="isotropic" type="Boolean" value="false"/>
+                        <property name="rowId" type="String" value=""/>
+                        <property default="" name="title" type="String" value="-----Electron Velocity Vector in DSL!c%{CONTEXT}"/>
+                        <property name="visible" type="Boolean" value="true"/>
+                        <property name="xaxis" type="DomNode">
+                            <Axis>
+                                <property name="autoLabel"
+                                    type="Boolean" value="false"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property default="" name="label"
+                                    type="String" value="UT"/>
+                                <property name="log" type="Boolean" value="false"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="us2000" value="2008-09-07 13:00 to 13:51"/>
+                                </property>
+                                <property name="visible" type="Boolean" value="true"/>
+                            </Axis>
+                        </property>
+                        <property name="yaxis" type="DomNode">
+                            <Axis>
+                                <property name="autoLabel"
+                                    type="Boolean" value="false"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property default="" name="label"
+                                    type="String" value="km/s (All Qs)"/>
+                                <property name="log" type="Boolean" value="false"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="km/s (All Qs)" value="-10000.0 to 10000.0 km/s (All Qs)"/>
+                                </property>
+                                <property name="visible" type="Boolean" value="true"/>
+                            </Axis>
+                        </property>
+                        <property name="zaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property name="label" type="String" value=""/>
+                                <property name="log" type="Boolean" value="false"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="" value="0.0 to 100.0 "/>
+                                </property>
+                                <property default="true" name="visible"
+                                    type="Boolean" value="false"/>
+                            </Axis>
+                        </property>
+                    </Plot>
+                </property>
+                <property default="null" name="plotId" type="String" value="plot_43"/>
+                <property name="renderType"
+                    type="enum:org.virbo.autoplot.RenderType" value="series"/>
+                <property name="style" type="DomNode">
+                    <PlotElementStyle id="style_74">
+                        <property name="antiAliased" type="Boolean" value="true"/>
+                        <property default="#0" name="color" type="color" value="#b33636"/>
+                        <property name="colortable"
+                            type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
+                        <property default="#808080" name="fillColor"
+                            type="color" value="#ff4d4d"/>
+                        <property name="fillToReference" type="Boolean" value="false"/>
+                        <property name="lineWidth" type="Double" value="1.0"/>
+                        <property name="plotSymbol"
+                            type="enum:org.das2.graph.DefaultPlotSymbol" value="circles"/>
+                        <property name="rebinMethod"
+                            type="enum:org.das2.graph.SpectrogramRenderer$RebinnerEnum" value="binAverage"/>
+                        <property name="reference" type="datum" value="0.0 (dimensionless)"/>
+                        <property default="None" name="symbolConnector"
+                            type="enum:org.das2.graph.PsymConnector" value="Solid"/>
+                        <property name="symbolSize" type="Double" value="1.0"/>
+                    </PlotElementStyle>
+                </property>
+            </PlotElement>
+            <PlotElement id="plotElement_75">
+                <property name="active" type="Boolean" value="true"/>
+                <property default="false" name="autoComponent"
+                    type="Boolean" value="true"/>
+                <property default="false" name="autoLabel"
+                    type="Boolean" value="true"/>
+                <property default="false" name="autoRenderType"
+                    type="Boolean" value="true"/>
+                <property default="" name="component" type="String" value="Vy_elec DSL Brst ESA-A"/>
+                <property default="null" name="dataSourceFilterId"
+                    type="String" value="data_43"/>
+                <property default="false" name="displayLegend"
+                    type="Boolean" value="true"/>
+                <property default="" name="legendLabel" type="String" value="Vy_elec DSL Brst ESA-A"/>
+                <property default="" name="parent" type="String" value="plotElement_73"/>
+                <property name="plotDefaults" type="DomNode">
+                    <Plot id="plot_defaults_75">
+                        <property name="autoBinding" type="Boolean" value="false"/>
+                        <property name="autoLabel" type="Boolean" value="false"/>
+                        <property name="colortable"
+                            type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
+                        <property name="columnId" type="String" value=""/>
+                        <property name="isotropic" type="Boolean" value="false"/>
+                        <property name="rowId" type="String" value=""/>
+                        <property default="" name="title" type="String" value="-----Electron Velocity Vector in DSL!c%{CONTEXT}"/>
+                        <property name="visible" type="Boolean" value="true"/>
+                        <property name="xaxis" type="DomNode">
+                            <Axis>
+                                <property name="autoLabel"
+                                    type="Boolean" value="false"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property default="" name="label"
+                                    type="String" value="UT"/>
+                                <property name="log" type="Boolean" value="false"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="us2000" value="2008-09-07 13:00 to 13:51"/>
+                                </property>
+                                <property name="visible" type="Boolean" value="true"/>
+                            </Axis>
+                        </property>
+                        <property name="yaxis" type="DomNode">
+                            <Axis>
+                                <property name="autoLabel"
+                                    type="Boolean" value="false"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property default="" name="label"
+                                    type="String" value="km/s (All Qs)"/>
+                                <property name="log" type="Boolean" value="false"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="km/s (All Qs)" value="-944.7557220458984 to 716.04 km/s (All Qs)"/>
+                                </property>
+                                <property name="visible" type="Boolean" value="true"/>
+                            </Axis>
+                        </property>
+                        <property name="zaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property name="label" type="String" value=""/>
+                                <property name="log" type="Boolean" value="false"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="" value="0.0 to 100.0 "/>
+                                </property>
+                                <property default="true" name="visible"
+                                    type="Boolean" value="false"/>
+                            </Axis>
+                        </property>
+                    </Plot>
+                </property>
+                <property default="null" name="plotId" type="String" value="plot_43"/>
+                <property name="renderType"
+                    type="enum:org.virbo.autoplot.RenderType" value="series"/>
+                <property name="style" type="DomNode">
+                    <PlotElementStyle id="style_75">
+                        <property name="antiAliased" type="Boolean" value="true"/>
+                        <property default="#0" name="color" type="color" value="#b3b336"/>
+                        <property name="colortable"
+                            type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
+                        <property default="#808080" name="fillColor"
+                            type="color" value="#ffff4d"/>
+                        <property name="fillToReference" type="Boolean" value="false"/>
+                        <property name="lineWidth" type="Double" value="1.0"/>
+                        <property name="plotSymbol"
+                            type="enum:org.das2.graph.DefaultPlotSymbol" value="circles"/>
+                        <property name="rebinMethod"
+                            type="enum:org.das2.graph.SpectrogramRenderer$RebinnerEnum" value="binAverage"/>
+                        <property name="reference" type="datum" value="0.0 (dimensionless)"/>
+                        <property default="None" name="symbolConnector"
+                            type="enum:org.das2.graph.PsymConnector" value="Solid"/>
+                        <property name="symbolSize" type="Double" value="1.0"/>
+                    </PlotElementStyle>
+                </property>
+            </PlotElement>
+            <PlotElement id="plotElement_76">
+                <property name="active" type="Boolean" value="true"/>
+                <property default="false" name="autoComponent"
+                    type="Boolean" value="true"/>
+                <property default="false" name="autoLabel"
+                    type="Boolean" value="true"/>
+                <property default="false" name="autoRenderType"
+                    type="Boolean" value="true"/>
+                <property default="" name="component" type="String" value="Vz_elec DSL Brst ESA-A"/>
+                <property default="null" name="dataSourceFilterId"
+                    type="String" value="data_43"/>
+                <property default="false" name="displayLegend"
+                    type="Boolean" value="true"/>
+                <property default="" name="legendLabel" type="String" value="Vz_elec DSL Brst ESA-A"/>
+                <property default="" name="parent" type="String" value="plotElement_73"/>
+                <property name="plotDefaults" type="DomNode">
+                    <Plot id="plot_defaults_76">
+                        <property name="autoBinding" type="Boolean" value="false"/>
+                        <property name="autoLabel" type="Boolean" value="false"/>
+                        <property name="colortable"
+                            type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
+                        <property name="columnId" type="String" value=""/>
+                        <property name="isotropic" type="Boolean" value="false"/>
+                        <property name="rowId" type="String" value=""/>
+                        <property default="" name="title" type="String" value="-----Electron Velocity Vector in DSL!c%{CONTEXT}"/>
+                        <property name="visible" type="Boolean" value="true"/>
+                        <property name="xaxis" type="DomNode">
+                            <Axis>
+                                <property name="autoLabel"
+                                    type="Boolean" value="false"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property default="" name="label"
+                                    type="String" value="UT"/>
+                                <property name="log" type="Boolean" value="false"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="us2000" value="2008-09-07 13:00 to 13:51"/>
+                                </property>
+                                <property name="visible" type="Boolean" value="true"/>
+                            </Axis>
+                        </property>
+                        <property name="yaxis" type="DomNode">
+                            <Axis>
+                                <property name="autoLabel"
+                                    type="Boolean" value="false"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property default="" name="label"
+                                    type="String" value="km/s (All Qs)"/>
+                                <property name="log" type="Boolean" value="false"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="km/s (All Qs)" value="-805.2267333984375 to 290.81 km/s (All Qs)"/>
+                                </property>
+                                <property name="visible" type="Boolean" value="true"/>
+                            </Axis>
+                        </property>
+                        <property name="zaxis" type="DomNode">
+                            <Axis>
+                                <property default="false"
+                                    name="autoLabel" type="Boolean" value="true"/>
+                                <property default="false"
+                                    name="autoRange" type="Boolean" value="true"/>
+                                <property name="drawTickLabels"
+                                    type="Boolean" value="true"/>
+                                <property name="id" type="String" value=""/>
+                                <property name="label" type="String" value=""/>
+                                <property name="log" type="Boolean" value="false"/>
+                                <property name="range" type="datumRange">
+                                    <datumRange units="" value="0.0 to 100.0 "/>
+                                </property>
+                                <property default="true" name="visible"
+                                    type="Boolean" value="false"/>
+                            </Axis>
+                        </property>
+                    </Plot>
+                </property>
+                <property default="null" name="plotId" type="String" value="plot_43"/>
+                <property name="renderType"
+                    type="enum:org.virbo.autoplot.RenderType" value="series"/>
+                <property name="style" type="DomNode">
+                    <PlotElementStyle id="style_76">
+                        <property name="antiAliased" type="Boolean" value="true"/>
+                        <property default="#0" name="color" type="color" value="#36b336"/>
+                        <property name="colortable"
+                            type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
+                        <property default="#808080" name="fillColor"
+                            type="color" value="#4dff4d"/>
+                        <property name="fillToReference" type="Boolean" value="false"/>
+                        <property name="lineWidth" type="Double" value="1.0"/>
+                        <property name="plotSymbol"
+                            type="enum:org.das2.graph.DefaultPlotSymbol" value="circles"/>
+                        <property name="rebinMethod"
+                            type="enum:org.das2.graph.SpectrogramRenderer$RebinnerEnum" value="binAverage"/>
+                        <property name="reference" type="datum" value="0.0 (dimensionless)"/>
+                        <property default="None" name="symbolConnector"
+                            type="enum:org.das2.graph.PsymConnector" value="Solid"/>
+                        <property name="symbolSize" type="Double" value="1.0"/>
+                    </PlotElementStyle>
+                </property>
+            </PlotElement>
+        </property>
+        <property class="Plot" length="4" name="plots">
+            <Plot id="plot_40">
+                <property name="autoBinding" type="Boolean" value="false"/>
+                <property name="autoLabel" type="Boolean" value="false"/>
+                <property name="colortable"
+                    type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
+                <property default="" name="columnId" type="String" value="marginColumn_10"/>
+                <property name="isotropic" type="Boolean" value="false"/>
+                <property default="" name="rowId" type="String" value="row_81"/>
+                <property default="" name="title" type="String" value="(All qualities data) ESA Burst (High Time and Angular Resolution) Mode, Ion Density"/>
+                <property name="visible" type="Boolean" value="true"/>
+                <property name="xaxis" type="DomNode">
+                    <Axis id="xaxis_40">
+                        <property default="false" name="autoLabel"
+                            type="Boolean" value="true"/>
+                        <property name="autoRange" type="Boolean" value="false"/>
+                        <property name="drawTickLabels" type="Boolean" value="true"/>
+                        <property default="" name="label" type="String" value="UT"/>
+                        <property name="log" type="Boolean" value="false"/>
+                        <property name="range" type="datumRange">
+                            <datumRange units="us2000" value="2008-09-07 13:00 to 13:51"/>
+                        </property>
+                        <property name="visible" type="Boolean" value="true"/>
+                    </Axis>
+                </property>
+                <property name="yaxis" type="DomNode">
+                    <Axis id="yaxis_40">
+                        <property name="autoLabel" type="Boolean" value="false"/>
+                        <property default="false" name="autoRange"
+                            type="Boolean" value="true"/>
+                        <property name="drawTickLabels" type="Boolean" value="true"/>
+                        <property default="" name="label" type="String" value="N_ion Brst ESA-A (cm^-3 (All Qs))"/>
+                        <property default="false" name="log"
+                            type="Boolean" value="true"/>
+                        <property name="range" type="datumRange">
+                            <datumRange units="cm^-3 (All Qs)" value="0.1 to 20.0 cm^-3 (All Qs)"/>
+                        </property>
+                        <property name="visible" type="Boolean" value="true"/>
+                    </Axis>
+                </property>
+                <property name="zaxis" type="DomNode">
+                    <Axis id="zaxis_40">
+                        <property default="false" name="autoLabel"
+                            type="Boolean" value="true"/>
+                        <property default="false" name="autoRange"
+                            type="Boolean" value="true"/>
+                        <property name="drawTickLabels" type="Boolean" value="true"/>
+                        <property name="label" type="String" value=""/>
+                        <property name="log" type="Boolean" value="false"/>
+                        <property name="range" type="datumRange">
+                            <datumRange units="" value="0.0 to 100.0 "/>
+                        </property>
+                        <property default="true" name="visible"
+                            type="Boolean" value="false"/>
+                    </Axis>
+                </property>
+            </Plot>
+            <Plot id="plot_41">
+                <property name="autoBinding" type="Boolean" value="false"/>
+                <property default="false" name="autoLabel"
+                    type="Boolean" value="true"/>
+                <property name="colortable"
+                    type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
+                <property default="" name="columnId" type="String" value="marginColumn_10"/>
+                <property name="isotropic" type="Boolean" value="false"/>
+                <property default="" name="rowId" type="String" value="row_83"/>
+                <property default="" name="title" type="String" value="-----Ion Average Temperature"/>
+                <property name="visible" type="Boolean" value="true"/>
+                <property name="xaxis" type="DomNode">
+                    <Axis id="xaxis_41">
+                        <property default="false" name="autoLabel"
+                            type="Boolean" value="true"/>
+                        <property name="autoRange" type="Boolean" value="false"/>
+                        <property name="drawTickLabels" type="Boolean" value="true"/>
+                        <property default="" name="label" type="String" value="UT"/>
+                        <property name="log" type="Boolean" value="false"/>
+                        <property name="range" type="datumRange">
+                            <datumRange units="us2000" value="2008-09-07 13:00 to 13:51"/>
+                        </property>
+                        <property name="visible" type="Boolean" value="true"/>
+                    </Axis>
+                </property>
+                <property name="yaxis" type="DomNode">
+                    <Axis id="yaxis_41">
+                        <property name="autoLabel" type="Boolean" value="false"/>
+                        <property default="false" name="autoRange"
+                            type="Boolean" value="true"/>
+                        <property name="drawTickLabels" type="Boolean" value="true"/>
+                        <property default="" name="label" type="String" value="T_ion Brst ESA-A (eV (All Qs))"/>
+                        <property default="false" name="log"
+                            type="Boolean" value="true"/>
+                        <property name="range" type="datumRange">
+                            <datumRange units="eV (All Qs)" value="100.0 to 3000.0 eV (All Qs)"/>
+                        </property>
+                        <property name="visible" type="Boolean" value="true"/>
+                    </Axis>
+                </property>
+                <property name="zaxis" type="DomNode">
+                    <Axis id="zaxis_41">
+                        <property default="false" name="autoLabel"
+                            type="Boolean" value="true"/>
+                        <property default="false" name="autoRange"
+                            type="Boolean" value="true"/>
+                        <property name="drawTickLabels" type="Boolean" value="true"/>
+                        <property name="label" type="String" value=""/>
+                        <property name="log" type="Boolean" value="false"/>
+                        <property name="range" type="datumRange">
+                            <datumRange units="" value="0.0 to 100.0 "/>
+                        </property>
+                        <property default="true" name="visible"
+                            type="Boolean" value="false"/>
+                    </Axis>
+                </property>
+            </Plot>
+            <Plot id="plot_42">
+                <property name="autoBinding" type="Boolean" value="false"/>
+                <property name="autoLabel" type="Boolean" value="false"/>
+                <property name="colortable"
+                    type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
+                <property default="" name="columnId" type="String" value="marginColumn_10"/>
+                <property name="isotropic" type="Boolean" value="false"/>
+                <property default="" name="rowId" type="String" value="row_85"/>
+                <property default="" name="title" type="String" value="-----Ion Energy Flux spectrogram"/>
+                <property name="visible" type="Boolean" value="true"/>
+                <property name="xaxis" type="DomNode">
+                    <Axis id="xaxis_42">
+                        <property default="false" name="autoLabel"
+                            type="Boolean" value="true"/>
+                        <property name="autoRange" type="Boolean" value="false"/>
+                        <property name="drawTickLabels" type="Boolean" value="true"/>
+                        <property default="" name="label" type="String" value="UT"/>
+                        <property name="log" type="Boolean" value="false"/>
+                        <property name="range" type="datumRange">
+                            <datumRange units="us2000" value="2008-09-07 13:00 to 13:51"/>
+                        </property>
+                        <property name="visible" type="Boolean" value="true"/>
+                    </Axis>
+                </property>
+                <property name="yaxis" type="DomNode">
+                    <Axis id="yaxis_42">
+                        <property name="autoLabel" type="Boolean" value="false"/>
+                        <property default="false" name="autoRange"
+                            type="Boolean" value="true"/>
+                        <property name="drawTickLabels" type="Boolean" value="true"/>
+                        <property default="" name="label" type="String" value="Ion ESA energy (eV)"/>
+                        <property default="false" name="log"
+                            type="Boolean" value="true"/>
+                        <property name="range" type="datumRange">
+                            <datumRange units="eV" value="5.0 to 30000.0 eV"/>
+                        </property>
+                        <property name="visible" type="Boolean" value="true"/>
+                    </Axis>
+                </property>
+                <property name="zaxis" type="DomNode">
+                    <Axis id="zaxis_42">
+                        <property name="autoLabel" type="Boolean" value="false"/>
+                        <property name="autoRange" type="Boolean" value="false"/>
+                        <property name="drawTickLabels" type="Boolean" value="true"/>
+                        <property default="" name="label" type="String" value="Eflux_ion Brst ESA-A (eV/(cm^2-s-sr-eV) (All Qs))"/>
+                        <property default="false" name="log"
+                            type="Boolean" value="true"/>
+                        <property name="range" type="datumRange">
+                            <datumRange
+                                units="eV/(cm^2-s-sr-eV) (All Qs)" value="6.30960E6 to 1.58490E9 eV/(cm^2-s-sr-eV) (All Qs)"/>
+                        </property>
+                        <property name="visible" type="Boolean" value="true"/>
+                    </Axis>
+                </property>
+            </Plot>
+            <Plot id="plot_43">
+                <property name="autoBinding" type="Boolean" value="false"/>
+                <property name="autoLabel" type="Boolean" value="false"/>
+                <property name="colortable"
+                    type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
+                <property default="" name="columnId" type="String" value="marginColumn_10"/>
+                <property name="isotropic" type="Boolean" value="false"/>
+                <property default="" name="rowId" type="String" value="row_87"/>
+                <property default="" name="title" type="String" value="-----Electron Velocity Vector in DSL"/>
+                <property name="visible" type="Boolean" value="true"/>
+                <property name="xaxis" type="DomNode">
+                    <Axis id="xaxis_43">
+                        <property name="autoLabel" type="Boolean" value="false"/>
+                        <property default="false" name="autoRange"
+                            type="Boolean" value="true"/>
+                        <property name="drawTickLabels" type="Boolean" value="true"/>
+                        <property default="" name="label" type="String" value="UT"/>
+                        <property name="log" type="Boolean" value="false"/>
+                        <property name="range" type="datumRange">
+                            <datumRange units="us2000" value="2008-09-07 13:00 to 13:51"/>
+                        </property>
+                        <property name="visible" type="Boolean" value="true"/>
+                    </Axis>
+                </property>
+                <property name="yaxis" type="DomNode">
+                    <Axis id="yaxis_43">
+                        <property name="autoLabel" type="Boolean" value="false"/>
+                        <property default="false" name="autoRange"
+                            type="Boolean" value="true"/>
+                        <property name="drawTickLabels" type="Boolean" value="true"/>
+                        <property default="" name="label" type="String" value="km/s (All Qs)"/>
+                        <property name="log" type="Boolean" value="false"/>
+                        <property name="range" type="datumRange">
+                            <datumRange units="km/s (All Qs)" value="-10000.0 to 10000.0 km/s (All Qs)"/>
+                        </property>
+                        <property name="visible" type="Boolean" value="true"/>
+                    </Axis>
+                </property>
+                <property name="zaxis" type="DomNode">
+                    <Axis id="zaxis_43">
+                        <property default="false" name="autoLabel"
+                            type="Boolean" value="true"/>
+                        <property default="false" name="autoRange"
+                            type="Boolean" value="true"/>
+                        <property name="drawTickLabels" type="Boolean" value="true"/>
+                        <property name="label" type="String" value=""/>
+                        <property name="log" type="Boolean" value="false"/>
+                        <property name="range" type="datumRange">
+                            <datumRange units="" value="0.0 to 100.0 "/>
+                        </property>
+                        <property default="true" name="visible"
+                            type="Boolean" value="false"/>
+                    </Axis>
+                </property>
+            </Plot>
+        </property>
+        <property name="timeRange" type="datumRange">
+            <datumRange units="us2000" value="2008-09-07 13:00 to 13:51"/>
+        </property>
+    </Application>
+</vap>
