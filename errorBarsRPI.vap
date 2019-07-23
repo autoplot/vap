@@ -45,7 +45,7 @@
             <DataSourceFilter id="data_0">
                 <property name="fill" type="String" value=""/>
                 <property name="filters" type="String" value=""/>
-                <property default="" name="uri" type="String" value="vap+inline:ds=getDataSet('vap+cdaweb:ds=IM_ELECTRON_DENSITY_RPI&amp;filter=density&amp;id=fce&amp;timerange=Dec+2005')&amp;stddev=getDataSet('vap+cdaweb:ds=IM_ELECTRON_DENSITY_RPI&amp;id=stdevFCE&amp;filter=density&amp;timerange=Dec+2005')&amp;putProperty(putProperty(ds,QDataSet.DELTA_PLUS,stddev),QDataSet.DELTA_MINUS,stddev)&amp;timerange=2005-12-08+14:00+to+21:00"/>
+                <property default="" name="uri" type="String" value="vap+inline:ds=getDataSet('vap+cdaweb:ds=IM_ELECTRON_DENSITY_RPI&amp;filter=density&amp;id=fce&amp;timerange=Dec+2005')&amp;stddev=getDataSet('vap+cdaweb:ds=IM_ELECTRON_DENSITY_RPI&amp;id=stdevFCE&amp;filter=density&amp;timerange=Dec+2005')&amp;putProperty(putProperty(ds,QDataSet.DELTA_PLUS,stddev),QDataSet.DELTA_MINUS,stddev)&amp;timerange=2005-12-08+18:00+to+19:00"/>
                 <property name="validRange" type="String" value=""/>
             </DataSourceFilter>
         </property>
@@ -95,10 +95,8 @@
             <PlotElement id="plotElement_0">
                 <property name="active" type="Boolean" value="true"/>
                 <property name="autoComponent" type="Boolean" value="false"/>
-                <property default="false" name="autoLabel"
-                    type="Boolean" value="true"/>
-                <property default="false" name="autoRenderType"
-                    type="Boolean" value="true"/>
+                <property name="autoLabel" type="Boolean" value="false"/>
+                <property name="autoRenderType" type="Boolean" value="false"/>
                 <property name="cadenceCheck" type="Boolean" value="true"/>
                 <property default="" name="component" type="String" value="|putProperty(VALID_MIN,1)"/>
                 <property default="" name="dataSourceFilterId"
@@ -226,7 +224,8 @@
                             type="color" value="#404040"/>
                         <property name="fillDirection" type="String" value="both"/>
                         <property name="fillToReference" type="Boolean" value="false"/>
-                        <property name="lineWidth" type="Double" value="1.0"/>
+                        <property default="1.0" name="lineWidth"
+                            type="Double" value="3.000000002980232"/>
                         <property name="plotSymbol"
                             type="enum:org.das2.graph.DefaultPlotSymbol" value="circles"/>
                         <property name="rebinMethod"
