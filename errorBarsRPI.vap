@@ -18,7 +18,7 @@
                             type="String" value="+6.0em"/>
                         <property name="parent" type="String" value=""/>
                         <property default="100%-3em" name="right"
-                            type="String" value="100.00%-6.0em"/>
+                            type="String" value="100.00%-8.0em"/>
                     </Column>
                 </property>
                 <property name="marginRow" type="DomNode">
