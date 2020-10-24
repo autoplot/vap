@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<vap appVersionTag="(dev)" domVersion="1.08">
+<vap appVersionTag="20201016c" domVersion="1.08">
     <Application id="app_0">
         <property class="Annotation" length="0" name="annotations"/>
         <property class="BindingModel" length="2" name="bindings">
@@ -18,7 +18,7 @@
                             type="String" value="+6.0em"/>
                         <property name="parent" type="String" value=""/>
                         <property default="100%-3em" name="right"
-                            type="String" value="100.00%-8.0em"/>
+                            type="String" value="100.00%-6.0em"/>
                     </Column>
                 </property>
                 <property name="marginRow" type="DomNode">
@@ -56,19 +56,22 @@
                 <property name="autolayout" type="Boolean" value="true"/>
                 <property name="autorangeType" type="String" value=""/>
                 <property name="autoranging" type="Boolean" value="true"/>
-                <property name="background" type="color" value="#ffffff"/>
+                <property name="background" type="color" value="#ffffff (White)"/>
                 <property default="sans-12" name="canvasFont"
                     type="String" value="Dialog-14"/>
-                <property name="color" type="color" value="#0"/>
+                <property name="color" type="color" value="#000000 (Black)"/>
+                <property name="colortable"
+                    type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
                 <property name="dataVisible" type="Boolean" value="false"/>
                 <property name="dayOfYear" type="Boolean" value="false"/>
                 <property name="displayLogLevel" type="level" value="ALL"/>
                 <property name="drawAntiAlias" type="Boolean" value="true"/>
                 <property name="drawGrid" type="Boolean" value="false"/>
                 <property name="drawMinorGrid" type="Boolean" value="false"/>
-                <property name="fillColor" type="color" value="#404040"/>
+                <property name="fillColor" type="color" value="#404040 (dark grey)"/>
                 <property name="flipColorbarLabel" type="Boolean" value="false"/>
-                <property name="foreground" type="color" value="#0"/>
+                <property name="foreground" type="color" value="#000000 (Black)"/>
+                <property name="height" type="Integer" value="480"/>
                 <property name="id" type="String" value=""/>
                 <property name="layoutVisible" type="Boolean" value="false"/>
                 <property name="lineThickness" type="String" value="1px"/>
@@ -89,6 +92,7 @@
                 <property name="textAntiAlias" type="Boolean" value="true"/>
                 <property name="ticklen" type="String" value="0.66em"/>
                 <property name="useTimeRangeEditor" type="Boolean" value="false"/>
+                <property name="width" type="Integer" value="640"/>
             </Options>
         </property>
         <property class="PlotElement" length="1" name="plotElements">
@@ -109,6 +113,7 @@
                         <property name="autoBinding" type="Boolean" value="false"/>
                         <property default="false" name="autoLabel"
                             type="Boolean" value="true"/>
+                        <property name="background" type="color" value="#00000000"/>
                         <property name="colortable"
                             type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
                         <property name="columnId" type="String" value=""/>
@@ -217,11 +222,15 @@
                 <property name="style" type="DomNode">
                     <PlotElementStyle id="style_0">
                         <property name="antiAliased" type="Boolean" value="true"/>
-                        <property name="color" type="color" value="#0"/>
+                        <property name="color" type="color" value="#000000 (Black)"/>
                         <property name="colortable"
                             type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
-                        <property default="#808080" name="fillColor"
-                            type="color" value="#404040"/>
+                        <property default="false" name="drawError"
+                            type="Boolean" value="true"/>
+                        <property name="errorBarType"
+                            type="enum:org.das2.graph.ErrorBarType" value="BAR"/>
+                        <property default="#808080 (Gray)"
+                            name="fillColor" type="color" value="#404040 (dark grey)"/>
                         <property name="fillDirection" type="String" value="both"/>
                         <property name="fillToReference" type="Boolean" value="false"/>
                         <property default="1.0" name="lineWidth"
@@ -245,11 +254,12 @@
                 <property name="autoBinding" type="Boolean" value="false"/>
                 <property default="false" name="autoLabel"
                     type="Boolean" value="true"/>
+                <property name="background" type="color" value="#00000000"/>
                 <property name="colortable"
                     type="enum:org.das2.graph.DasColorBar$Type" value="color_wedge"/>
                 <property default="" name="columnId" type="String" value="marginColumn_0"/>
                 <property name="context" type="datumRange">
-                    <datumRange units="us2000" value="Dec 2005"/>
+                    <datumRange units="us2000" value="2005-12-08 18:00 to 19:00"/>
                 </property>
                 <property name="displayLegend" type="Boolean" value="true"/>
                 <property name="displayTitle" type="Boolean" value="true"/>
